@@ -67,8 +67,8 @@ const App = () => {
       </div>
       <button onClick={calculateBloodAlcoholLevel}>Laske</button>
       <div>
-        <h2>Tulos:</h2>
-        <p>{result}</p>
+        <h2>Tulos:</h2> 
+        <p>{result} promillea</p>
       </div>
     </div>
     

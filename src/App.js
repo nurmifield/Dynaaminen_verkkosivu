@@ -21,6 +21,7 @@ const App = () => {
     } else {
       result = gramsLeft / (weight * 0.6);
     }
+  
     
     setResult(result.toFixed(2));
   };
@@ -48,9 +49,10 @@ const App = () => {
           <input type="radio" name="gender" value="female" checked={gender === 'female'} onChange={e => setGender(e.target.value)} />
           Nainen
         </label>
+       
       </div>
       <div>
-        <label>Oluiden määrä:</label>
+        <label>oluiden määrä:</label>
         <input
           type="number"
           value={beer}
